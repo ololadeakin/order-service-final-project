@@ -1,7 +1,7 @@
 version: "3.7"
 services:
   app:
-    image: docker.io/lolaakin/order-service:a7338953729af1645d639b365544abaaa27b7a32 # Replace with your actual image
+    image: docker.io/lolaakin/order-service:latest # Replace with your actual image
     container_name: 'azure-event-bus-app'
     restart: always
     environment:
