@@ -2,7 +2,7 @@ version: "3.7"
 services:
   app:
     image: lolaakin/order-service:latest # Replace with your actual image
-    container_name: 'azure-event-bus-app'
+    container_name: 'order-service'
     restart: always
     environment:
       - "ORDER_QUEUE_HOSTNAME=my-eventbus-8915.servicebus.windows.net"
